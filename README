@@ -7,3 +7,21 @@
 #						       #
 ########################################################
 
+
+    src : ce dossier contient les sources de votre application (code JAVA) et les packages.
+    com.tuto.android : un package de votre application. Bien sûr, vous pouvez avoir plusieurs packages dans votre application.
+    HelloWorldActivity.java : notre principale activité. (je vous conseille d'avoir plusieurs activités pour les différentes parties de votre code).
+    gen : dossier qui contiendra le fichier R.java (ce fichier est généré automatiquement à partir de vos vues et fichiers de ressource).
+    R.java : ce fichier est automatiquement généré par le SDK Android à chaque précompilation.
+    assets : contient des données qui pourront être utilisées dans votre application (images, vidéos, licence, etc.).
+    res : c'est le dossier qui contiendra les ressources de votre application (images, vidéos, styles).
+    drawable-hpdi : contient toutes les images, bitmaps dont vous avez besoin pour votre application en haute résolution.
+    drawable-ldpi : contient toutes les images, bitmaps dont vous avez besoin pour votre application en basse résolution.
+    drawable-mdpi : contient toutes les images, bitmaps dont vous avez besoin pour votre application en moyenne résolution.
+    Icon.png : l'icône de votre application, cette icône sera affichée sur le bureau.
+    layout : le SDK Android offre une technique de création d'interfaces graphiques à l'aide de fichiers XML. C'est dans ce dossier que vous inclurez l'ensemble des fichiers décrivant vos interfaces. Vous pouvez créer d'autres dossiers pour les menus par exemple.
+    Main.xml : le fichier principal de votre interface.
+    values : ce dossier contient un ensemble de fichiers décrivant les valeurs (pseudovariables) utilisées par votre application. On peut, par exemple, y mettre des chaînes de caractères (strings.xml), des tableaux (arrays.xml), des entiers, des couleurs, etc.
+    Strings.xml : fichier qui contient vos déclarations de chaînes de caractères.
+    AndroidManifest.xml : définit le comportement de votre application au système Android. Ce fichier définit par exemple le nom, l'icône, la version min du SDK, les activités, les services, etc.
+
